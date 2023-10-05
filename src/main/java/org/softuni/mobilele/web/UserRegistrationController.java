@@ -14,7 +14,6 @@ public class UserRegistrationController {
     private final UserService userService;
 
     public UserRegistrationController(UserService userService) {
-
         this.userService = userService;
     }
 
