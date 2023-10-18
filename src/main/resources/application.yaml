@@ -6,9 +6,9 @@ logging:
 spring:
     datasource:
         driverClassName: com.mysql.cj.jdbc.Driver
-        password: JavaDBMay2023-
+        password: ${db_password}
         url: jdbc:mysql://localhost:3306/mobilele?useSSL=false&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true
-        username: root
+        username: ${db_username}
     jpa:
         hibernate:
             ddl-auto: update
